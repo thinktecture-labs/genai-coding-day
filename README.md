@@ -1,6 +1,6 @@
-# Gen AI TT Coding Day
+# Generative AI Coding Day @ Thinktecture AG
 
-## Hintergrund
+## 📋 Hintergrund
 
 Unser Kunde, AS - Archery Supplies, vertreibt Produkte rund um den Bogensport.
 
@@ -21,15 +21,17 @@ aktuell "darf" sich eine Bürokraft Sonntag Abends von zuhause aus hinsetzen, un
 "gesperrt", damit die Bestellung nicht gleich verschickt wird, bis die Mail dann im Laufe des
 Montags vernünftig abgearbeitet werden kann.
 
-## Aufgabe
+## 🔧 Aufgabe
 
 Wir wollen der Bürokraft den Sonntagabend in Ruhe und ohne Arbeit gönnen.
 Daher bauen wir kleines System, dass die eingegangenen Mails in der Nacht auf Montag
 automatisch vorbereitet.
 
-Ein Script legt uns die Mails in der Datei `mails.csv` ab.
+Ein Script legt uns die Mails in der Datei `mails.csv` 📁 ab.
 Ein LLM soll diese Mails lesen, und mit Tools in die Lage versetzt werden, diese zu
 analysieren und dann entsprechend zu agieren.
+
+Initialisiere ein lokales Git-Repository 🗂️. Commite und arbeite so, wie du es sonst auch während deines Coding-Alltags tun würdest. Dazu gehört auch Musikhören 🎵, Pausen ☕, und alles Weitere.
 
 Zum Durchführen von Prüfungen darf das LLM in die "Datenbank" schauen. Diese besteht
 der Einfachheit halber aus den beiden Dateien `customers.csv` und `orders.csv`.
@@ -38,22 +40,21 @@ In `orders.csv` stehen alle Bestellungen zu den Kundennummern, und der Status de
 jeweiligen Bestellung. Solange die Bestellung bei `is_open` noch auf `true` steht, ist
 sie noch nicht verschickt und kann noch storniert werden.
 
-## Ziele
-
+## 🎯 Ziele
 Wenn aus einer Mail sowohl Kunden- als auch Order-Nummer eindeutig hervorgehen,
 wobei die Kundennummer auch anhand der E-Mail Adresse ermittelt werden kann,
 und die Bestellung zu diesem Kunden gehört, dann soll die Bestellung markiert werden,
 so dass sie vorerst nicht weiter abgearbeitet wir, bis ein Mensch die Mail vollständig
 abgearbeitet hat.
 
-1.) Für jede Bestellung die aufgehalten werden soll, soll ein Eintrag in eine neue Datei
+1️⃣ Für jede Bestellung die aufgehalten werden soll, soll ein Eintrag in eine neue Datei
 gemacht werden mit Bestellnummer, Kundennummer, und dem Betreff sowie dem Body der Mail.
 Wir nehmen an, ein weiteres script liest die Kundennummern hieraus und stellt diese Kunden
 auf gesperrt, bis die Mails dann am Montag abgearbeitet wurden.
 
-2.) Für alle unklaren Stornoanfragen, sollen diese Angaben in eine andere Datei geschrieben
+2️⃣ Für alle unklaren Stornoanfragen, sollen diese Angaben in eine andere Datei geschrieben
 werden (z.B. Stornoanfrage für eine schon verschickte Bestellung, unklare Kunden- oder
 Bestellnummer).
 
-3.) Beschwerden und sonstige Anfragen sollen auch jeweils in eigene Dateien geschrieben
+3️⃣ Beschwerden und sonstige Anfragen sollen auch jeweils in eigene Dateien geschrieben
 werden, so dass hier die Reihenfolge in Zukunft besser priorisiert werden kann.
