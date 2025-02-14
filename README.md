@@ -5,7 +5,7 @@
 Unser Kunde, AS - Archery Supplies, vertreibt Produkte rund um den Bogensport.
 
 Es wird dabei über einen eigenen Webshop, über Amazon und über eBay verkauft, und der Kunde
-hat ein eigenes E-Commerce System, dass alle Kundendaten, Bestellungen und Produktdaten
+hat ein eigenes E-Commerce System, das alle Kundendaten, Bestellungen und Produktdaten
 verwaltet. Wenn ein Kunde über die verbunden Plattformen arbeitet, also z.B. auf der eBay-
 Webseite seine Bestellung storniert, läuft alles Problemlos ab.
 
