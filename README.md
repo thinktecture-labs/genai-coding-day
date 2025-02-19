@@ -44,7 +44,7 @@ sie noch nicht verschickt und kann noch storniert werden.
 Wenn aus einer Mail sowohl Kunden- als auch Order-Nummer eindeutig hervorgehen,
 wobei die Kundennummer auch anhand der E-Mail Adresse ermittelt werden kann,
 und die Bestellung zu diesem Kunden gehört, dann soll die Bestellung markiert werden,
-so dass sie vorerst nicht weiter abgearbeitet wir, bis ein Mensch die Mail vollständig
+so dass sie vorerst nicht weiter abgearbeitet wird, bis ein Mensch die Mail vollständig
 abgearbeitet hat.
 
 1️⃣ Für jede Bestellung die aufgehalten werden soll, soll ein Eintrag in eine neue Datei
